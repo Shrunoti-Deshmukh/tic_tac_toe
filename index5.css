@@ -1,0 +1,67 @@
+body{
+    background-color:black;
+    background-image: url("https://c0.wallpaperflare.com/preview/574/313/265/sony-ps4-game-controller-buttons.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    color:white;
+    font-family:"arial",sans-sarif;
+}
+ h1{
+     text-align:center;
+     color:#fff;
+ }
+
+ .clearfix{
+     clear:both;
+ }
+
+ .container{
+     width: 365px;
+     overflow:auto;
+     margin:40px auto;
+     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
+     padding-bottom:40px;
+     border-radius:10px;
+ }
+  
+  #bo li{
+      float:left;
+      margin:10px;
+      height:70px;
+      width:70px;
+      font-size:55px;
+      background-color:#333;
+      color:#eee;
+      list-style:none;
+      text-align:center;
+      border-radius:5px;
+  }
+
+  #bo li:hover,#reset:hover{
+      cursor:pointer;
+      background-color:#000;
+  }
+
+  #reset{
+      border:0;
+      background-color:#444;
+      color:#fff;
+      width:70%;
+      padding:15px;
+      border-radius:5px;
+     }
+
+    .o{
+        color:rgb(236, 43, 149) !important;
+      }
+
+    .x{
+        color:blue !important;
+    }
+
+    footer{
+        display:block;
+        text-align:center;
+        padding-top:20px;
+    }
